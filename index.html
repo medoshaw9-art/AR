@@ -43,16 +43,14 @@
 <body>
 
   <h1>🍔 Burger AR</h1>
-
- <model-viewer
+<model-viewer
   src="./burger.glb"
   alt="3D Burger"
   camera-controls
   auto-rotate
   ar
-  ar-modes="scene-viewer"
-  shadow-intensity="1"
-  style="width: 100%; height: 500px;">
+  ar-modes="webxr scene-viewer quick-look"
+  shadow-intensity="1">
 
   <button slot="ar-button">
     View in AR
